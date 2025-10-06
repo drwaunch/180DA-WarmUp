@@ -11,7 +11,7 @@ while(1):
  
     # Take each frame
     _, frame = cap.read()
- 
+
     # Convert BGR to HSV
     hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
  
